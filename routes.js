@@ -15,6 +15,8 @@ const requestHandler = (req, res) => {
 
 	// if the url is just "/" - give greeting
 	if (url === "/") {
+		// Don't forget to set the Headers
+		res.setHeader('Content-Type', 'text/html');
 		res.write('<html>');
 		res.write('<head><title>Assignment 1 webpage</title></head>');
         res.write('<body><h1>Hello from my page!</h1></body>');
@@ -27,6 +29,8 @@ const requestHandler = (req, res) => {
 
 	// if the url -> "/users", then return a hard-coded listy
 	if (url === "/users") {
+		// Don't forget to set the Headers
+		res.setHeader('Content-Type', 'text/html');
 		res.write('<html>');
 		res.write('<head><title>Dummy User List</title></head>');
 		res.write('<body><ul><li>Corneille</li><li>Joss</li><li>Remi</li><li>Spence</li></ul></body>')

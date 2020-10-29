@@ -1,0 +1,28 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctshibas/node-assignment-1.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "req",
+    "res"
+  ],
+  "author": "Corneille Tshibasu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctshibas/node-assignment-1/issues"
+  },
+  "homepage": "https://github.com/ctshibas/node-assignment-1#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

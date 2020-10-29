@@ -4,10 +4,10 @@
 **Useful resources:**
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-Official Node.js Docs: https://nodejs.org/en/docs/guides/
+* _Official Node.js Docs:_ https://nodejs.org/en/docs/guides/
 
-Full Node.js Reference (for all core modules): https://nodejs.org/dist/latest/docs/api/
+* _)Full Node.js Reference (for all core modules):_ https://nodejs.org/dist/latest/docs/api/
 
-More about the Node.js Event Loop: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+* _More about the Node.js Event Loop:_ https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
 
-Blocking and Non-Blocking Code: https://nodejs.org/en/docs/guides/dont-block-the-event-loop/
+* _Blocking and Non-Blocking Code:_ https://nodejs.org/en/docs/guides/dont-block-the-event-loop/

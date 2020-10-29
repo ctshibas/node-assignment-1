@@ -57,7 +57,9 @@ const requestHandler = (req, res) => {
 		// registered 'end' event
 		return req.on('end', () => {
 			const parsedBody = Buffer.concat(body).toString();
-			console.log(parsedBody);
+			// this as is would just give the key pair value format
+			// must split the form submission data to just get the value
+			console.log(parsedBody.split('=')[1]);
 
 			// now, we redirect to the homepage
 			// set status code, location and end

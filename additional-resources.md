@@ -1,4 +1,4 @@
-#Useful Resources & Links
+#Useful Resources & Links<br/>
 ##Attached, you find the source code for this section.
 
 **Useful resources:**

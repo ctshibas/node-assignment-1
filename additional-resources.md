@@ -6,7 +6,7 @@
 
 * _Official Node.js Docs:_ https://nodejs.org/en/docs/guides/
 
-* _)Full Node.js Reference (for all core modules):_ https://nodejs.org/dist/latest/docs/api/
+* _Full Node.js Reference (for all core modules):_ https://nodejs.org/dist/latest/docs/api/
 
 * _More about the Node.js Event Loop:_ https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
 

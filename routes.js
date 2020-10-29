@@ -45,6 +45,7 @@ const requestHandler = (req, res) => {
 		const body = [];
 
 		// to receive the data in "chunks" - works as a buffer
+		// registered 'data' event
 		req.on('data', (chunks) => {
 			// add to array - the buffer that is
 			body.push(chunks);
@@ -53,6 +54,7 @@ const requestHandler = (req, res) => {
 		// now with that request we convert the buffer to text
 		// and then log the text to the console
 		// OPTIONAL: RETURN TO HOMEPAGE??
+		// registered 'end' event
 		return req.on('end', () => {
 			const parsedBody = Buffer.concat(body).toString();
 			console.log(parsedBody);
